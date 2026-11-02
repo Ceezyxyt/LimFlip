@@ -182,7 +182,7 @@ export default function EmojiPicker({ onSelect, onClose }: EmojiPickerProps) {
               onClick={() => setSelectedCategory(index)}
               style={{
                 padding: '6px 10px',
-                background: selectedCategory === index ? '#C77DFF' : 'transparent',
+                background: selectedCategory === index ? '#F04451' : 'transparent',
                 border: 'none',
                 borderRadius: '6px',
                 color: selectedCategory === index ? '#FFFFFF' : '#686B7B',

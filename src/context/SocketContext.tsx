@@ -2,6 +2,7 @@
 
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 import { io, Socket } from 'socket.io-client';
+import { API_URL } from '@/lib/api';
 
 interface SocketContextType {
   socket: Socket | null;
@@ -23,7 +24,7 @@ export function SocketProvider({ children }: { children: ReactNode }) {
   const [isConnected, setIsConnected] = useState(false);
 
   useEffect(() => {
-    const socketInstance = io('http://localhost:3001');
+    const socketInstance = io(API_URL);
     setSocket(socketInstance);
     setIsConnected(true);
 

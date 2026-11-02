@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useIsMobile } from '@/hooks/useMediaQuery';
+import { API_URL } from '@/lib/api';
 
 interface SignUpModalProps {
   isOpen?: boolean;
@@ -42,7 +43,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
     try {
       if (step === 1) {
         // Step 1: Check if username exists
-        const endpoint = 'http://localhost:3001/auth/check-username';
+        const endpoint = `${API_URL}/auth/check-username`;
         const body = { username };
 
         const response = await fetch(endpoint, {
@@ -69,7 +70,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
           
           // Fetch avatar URL from Roblox API
           try {
-            const searchResponse = await fetch(`http://localhost:3001/roblox/search?q=${encodeURIComponent(username)}`);
+            const searchResponse = await fetch(`${API_URL}/roblox/search?q=${encodeURIComponent(username)}`);
             const searchData = await searchResponse.json();
             console.log('Search results:', searchData);
             if (searchData && searchData.length > 0) {
@@ -93,7 +94,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
         setStep(3);
       } else {
         // Step 3: Verify description and login/signup
-        const endpoint = 'http://localhost:3001/auth/verify-description';
+        const endpoint = `${API_URL}/auth/verify-description`;
         const body = {
           username,
           robloxUserId: robloxUserId?.toString(),
@@ -191,8 +192,8 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
           }}
         >
           <img
-            src="/assets/images/auth/loginbgg.png"
-            alt="Login"
+            src="/assets/images/auth/bloxsurge-banner.png"
+            alt="Bloxsurge login banner"
             style={{
               width: '100%',
               height: '100%',
@@ -317,7 +318,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
                       textAlign: isMobile ? 'center' : 'left',
                     }}
                   >
-                    Welcome to MM2Stake, the leading roblox social arcade for Crypto and R$
+                    Welcome to Bloxsurge, the leading roblox social arcade for Crypto and R$
                   </span>
                   <span
                     style={{
@@ -449,7 +450,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
                     height: '54px',
                     left: isMobile ? '0' : '0px',
                     top: isMobile ? '0' : '100px',
-                    background: loading ? '#1a4d8c' : '#C77DFF',
+                    background: loading ? '#1a4d8c' : '#F04451',
                     borderRadius: '15px',
                     border: 'none',
                     cursor: loading ? 'not-allowed' : 'pointer',
@@ -618,7 +619,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
                   textAlign: isMobile ? 'center' : 'left',
                 }}
               >
-                By registering in your recognize that you are in agreement to our <span style={{ color: '#C77DFF' }}>Terms of Service</span> as-well as being over the age of <span style={{ color: '#C77DFF' }}>18+</span>.
+                By registering in your recognize that you are in agreement to our <span style={{ color: '#F04451' }}>Terms of Service</span> as-well as being over the age of <span style={{ color: '#F04451' }}>18+</span>.
               </span>
           </div>
         </>
@@ -924,7 +925,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
                       height: isMobile ? 'auto' : '54px',
                       left: isMobile ? '0' : '294px',
                       top: isMobile ? '0' : '388px',
-                      background: '#C77DFF',
+                      background: '#F04451',
                       borderRadius: '15px',
                       marginTop: isMobile ? '10px' : '0',
                     }}
@@ -1104,7 +1105,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
                     fontWeight: 600,
                     fontSize: '15px',
                     lineHeight: '22px',
-                    color: '#C77DFF',
+                    color: '#F04451',
                   }}
                 >
                   1
@@ -1138,7 +1139,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
                     fontWeight: 600,
                     fontSize: '15px',
                     lineHeight: '22px',
-                    color: '#C77DFF',
+                    color: '#F04451',
                   }}
                 >
                   2
@@ -1172,7 +1173,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
                     fontWeight: 600,
                     fontSize: '15px',
                     lineHeight: '22px',
-                    color: '#C77DFF',
+                    color: '#F04451',
                   }}
                 >
                   3
@@ -1352,7 +1353,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
                 fontWeight: 600,
                 fontSize: isMobile ? '11px' : '12px',
                 lineHeight: '18px',
-                color: '#C77DFF',
+                color: '#F04451',
               }}
             >
               <a
@@ -1462,7 +1463,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
               height: isMobile ? 'auto' : '54px',
               left: isMobile ? '0' : '294px',
               top: isMobile ? '0' : '413px',
-              background: '#C77DFF',
+              background: '#F04451',
               borderRadius: '15px',
               marginTop: isMobile ? '10px' : '0',
             }}

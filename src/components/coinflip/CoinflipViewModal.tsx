@@ -360,8 +360,8 @@ export default function CoinflipViewModal({ isOpen, onClose, game }: CoinflipVie
                   <path d="M9.5 2C5.26205 1.99984 1.99996 5.37499 2 9.50002C2.00005 13.325 5.03178 17 9.5 17C13.6568 17 17 13.625 17 9.50002" stroke="url(#paint0_linear)" strokeWidth="3" strokeLinecap="round"/>
                   <defs>
                     <linearGradient id="paint0_linear" x1="9.5" y1="18.25" x2="17" y2="17" gradientUnits="userSpaceOnUse">
-                      <stop stopColor="#C77DFF"/>
-                      <stop offset="1" stopColor="#C77DFF" stopOpacity="0"/>
+                      <stop stopColor="#F04451"/>
+                      <stop offset="1" stopColor="#F04451" stopOpacity="0"/>
                     </linearGradient>
                   </defs>
                 </svg>
@@ -1165,8 +1165,8 @@ color: '#FFFFFF',
             }}
           >
             <img
-              src="/assets/svg/ui/logo.svg"
-              alt="MM2Stake logo"
+              src="/assets/svg/ui/bloxsurge-logo.png"
+              alt="Bloxsurge logo"
               style={{
                 position: 'absolute',
                 width: '1870px',
@@ -1201,8 +1201,8 @@ color: '#FFFFFF',
             }}
           >
             <img
-              src="/assets/svg/ui/logo.svg"
-              alt="MM2Stake logo"
+              src="/assets/svg/ui/bloxsurge-logo.png"
+              alt="Bloxsurge logo"
               style={{
                 position: 'absolute',
                 width: '1870px',

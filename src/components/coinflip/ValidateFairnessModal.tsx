@@ -77,7 +77,7 @@ const ValidateFairnessModal: React.FC<ValidateFairnessModalProps> = ({ isOpen, o
               </label>
             ))}
           </div>
-          <button type="button" style={{ width: '100%', minHeight: '48px', marginTop: '20px', border: 0, borderRadius: '12px', background: '#C77DFF', color: '#FFFFFF', fontFamily: 'Poppins', fontWeight: 600 }}>
+          <button type="button" style={{ width: '100%', minHeight: '48px', marginTop: '20px', border: 0, borderRadius: '12px', background: '#F04451', color: '#FFFFFF', fontFamily: 'Poppins', fontWeight: 600 }}>
             Validate Fairness
           </button>
           {jackpot && <p style={{ margin: '14px 0 0', color: '#53576B', fontSize: '12px', overflowWrap: 'anywhere' }}>SHA-256(EOS block ID + &quot;:&quot; + round ID) modulo total tickets</p>}
@@ -416,7 +416,7 @@ const ValidateFairnessModal: React.FC<ValidateFairnessModalProps> = ({ isOpen, o
               height: '53px',
               left: '0px',
               top: '-0.21px',
-              background: '#C77DFF',
+              background: '#F04451',
               borderRadius: '15px',
               cursor: 'pointer',
             }}

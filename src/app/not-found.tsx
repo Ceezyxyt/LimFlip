@@ -139,7 +139,7 @@ export default function NotFound() {
               height: '36px',
               left: '0px',
               top: '0px',
-              background: '#C77DFF',
+              background: '#F04451',
               borderRadius: '15px',
             }}
           />

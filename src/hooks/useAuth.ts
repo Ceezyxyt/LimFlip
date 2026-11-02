@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { API_URL } from '@/lib/api';
 
 interface User {
   id: string;
@@ -31,13 +32,16 @@ export const useAuth = () => {
 
     console.log('useAuth: Fetching user with token');
 
+    let responseStatus: number | null = null;
+
     try {
-      const response = await fetch('http://localhost:3001/auth/me', {
+      const response = await fetch(`${API_URL}/auth/me`, {
         headers: {
           'Authorization': `Bearer ${token}`,
         },
       });
 
+      responseStatus = response.status;
       const data = await response.json();
 
       console.log('useAuth: Response:', data);
@@ -52,7 +56,7 @@ export const useAuth = () => {
     } catch (err) {
       console.error('useAuth: Error:', err);
       setError(err instanceof Error ? err.message : 'An error occurred');
-      if (err instanceof Error && err.message.includes('token')) {
+      if (responseStatus === 401 || (err instanceof Error && err.message.toLowerCase().includes('token'))) {
         localStorage.removeItem('token');
         setUser(null);
       }

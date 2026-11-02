@@ -276,7 +276,7 @@ export default function GiveawayCard({ giveaway, onJoin }: GiveawayCardProps) {
           height: '42px',
           left: '51px',
           top: '149px',
-          background: '#C77DFF',
+          background: '#F04451',
           filter: 'blur(54.7px)',
           borderRadius: '70px',
         }}
@@ -345,7 +345,7 @@ export default function GiveawayCard({ giveaway, onJoin }: GiveawayCardProps) {
           height: isMobile ? '30px' : '33px',
           left: isMobile ? '17px' : '17px',
           top: isMobile ? '95px' : '106px',
-          background: '#C77DFF',
+          background: '#F04451',
           borderRadius: '11px',
           cursor: giveaway ? 'pointer' : 'default',
           display: 'flex',

@@ -304,7 +304,7 @@ export default function MobileBottomNav() {
                 position: 'absolute',
                 height: '4px',
                 bottom: '0px',
-                background: '#C77DFF',
+                background: '#F04451',
                 borderRadius: '40px 8px 0px 0px',
                 transition: 'left 0.3s ease',
                 ...underlineStyle,
@@ -392,7 +392,7 @@ export default function MobileBottomNav() {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path d="M1 7.5H18M1 1H18M1 14H18" stroke="#C77DFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M1 7.5H18M1 1H18M1 14H18" stroke="#F04451" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </button>
             </div>
@@ -422,7 +422,7 @@ export default function MobileBottomNav() {
             position: 'absolute',
             height: '4px',
             bottom: '0px',
-            background: '#C77DFF',
+            background: '#F04451',
             borderRadius: '40px 8px 0px 0px',
             transition: 'left 0.3s ease',
             ...underlineStyle,
@@ -511,7 +511,7 @@ export default function MobileBottomNav() {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path d="M1 7.5H18M1 1H18M1 14H18" stroke={menuOpen ? '#C77DFF' : 'white'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M1 7.5H18M1 1H18M1 14H18" stroke={menuOpen ? '#F04451' : 'white'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </button>
         </div>

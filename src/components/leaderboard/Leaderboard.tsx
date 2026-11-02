@@ -513,7 +513,7 @@ export default function Leaderboard({ items, onClose }: LeaderboardProps) {
                       fontWeight: 600,
                       fontSize: '15px',
                       lineHeight: '16px',
-                      color: '#C77DFF',
+                      color: '#F04451',
                     }}
                   >
                     {item.profit.toLocaleString()}

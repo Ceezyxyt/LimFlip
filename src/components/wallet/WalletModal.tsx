@@ -508,7 +508,7 @@ export default function WalletModal({ isOpen, onClose }: WalletModalProps) {
                   height: '34px',
                   left: '298px',
                   top: '1px',
-                  background: '#C77DFF',
+                  background: '#F04451',
                   borderRadius: '0px 15px 15px 0px',
                   display: 'flex',
                   flexDirection: 'row',
@@ -1107,7 +1107,7 @@ export default function WalletModal({ isOpen, onClose }: WalletModalProps) {
                       height: '34px',
                       left: '446px',
                       top: '0px',
-                      background: '#C77DFF',
+                      background: '#F04451',
                       borderRadius: '0px 15px 15px 0px',
                       display: 'flex',
                       flexDirection: 'row',
@@ -1241,7 +1241,7 @@ export default function WalletModal({ isOpen, onClose }: WalletModalProps) {
                     height: '40px',
                     left: '28px',
                     top: '303px',
-                    background: '#C77DFF',
+                    background: '#F04451',
                     borderRadius: '15px',
                     cursor: 'pointer',
                   }}
@@ -1299,7 +1299,7 @@ export default function WalletModal({ isOpen, onClose }: WalletModalProps) {
                       height: '118px',
                       left: '540.95px',
                       top: '7px',
-                      background: '#C77DFF',
+                      background: '#F04451',
                       borderRadius: '5px',
                     }}
                   />
@@ -1422,7 +1422,7 @@ export default function WalletModal({ isOpen, onClose }: WalletModalProps) {
                   width: '100%',
                   marginTop: '20px',
                   padding: '14px',
-                  background: '#C77DFF',
+                  background: '#F04451',
                   border: 'none',
                   borderRadius: '10px',
                   color: '#FFFFFF',
@@ -1716,7 +1716,7 @@ export default function WalletModal({ isOpen, onClose }: WalletModalProps) {
                   height: '54px',
                   left: '0px',
                   top: '0px',
-                  background: '#C77DFF',
+                  background: '#F04451',
                   borderRadius: '15px',
                 }}
               />

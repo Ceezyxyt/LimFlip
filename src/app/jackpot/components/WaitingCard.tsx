@@ -61,7 +61,7 @@ export default function WaitingCard({ entry }: { entry?: JackpotEntry }) {
             height: '34px',
             left: '44px',
             top: '227px',
-            background: '#C77DFF',
+            background: '#F04451',
             opacity: 0.44,
             filter: 'blur(49.5px)',
             zIndex: 1,

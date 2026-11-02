@@ -564,7 +564,7 @@ const MM2WithdrawModal: React.FC<MM2WithdrawModalProps> = ({ isOpen, onClose }) 
             disabled={isWithdrawing || selectedItems.size === 0}
             style={{
               padding: '12px 32px',
-              background: isWithdrawing || selectedItems.size === 0 ? '#202634' : '#C77DFF',
+              background: isWithdrawing || selectedItems.size === 0 ? '#202634' : '#F04451',
               border: 'none',
               borderRadius: '15px',
               color: '#FFFFFF',

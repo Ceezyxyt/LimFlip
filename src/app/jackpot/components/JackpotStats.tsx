@@ -135,7 +135,7 @@ export default function JackpotStats({ jackpotValue, userWager, userChance, time
                 fontSize: '24px',
                 lineHeight: '35px',
                 textAlign: 'center',
-                color: '#C77DFF',
+                color: '#F04451',
               }}
             >
               {formatValue(jackpotValue)}

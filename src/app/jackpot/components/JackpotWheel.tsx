@@ -63,7 +63,7 @@ export default function JackpotWheel({ jackpot, onJackpotJoined }: JackpotWheelP
             type="button"
             disabled={!canJoin}
             onClick={() => setIsJoinModalOpen(true)}
-            style={{ minHeight: '44px', padding: '0 18px', background: '#C77DFF', border: 0, borderRadius: '12px', color: '#FFFFFF', fontFamily: 'Poppins', fontWeight: 700, cursor: canJoin ? 'pointer' : 'not-allowed', opacity: canJoin ? 1 : 0.6 }}
+            style={{ minHeight: '44px', padding: '0 18px', background: '#F04451', border: 0, borderRadius: '12px', color: '#FFFFFF', fontFamily: 'Poppins', fontWeight: 700, cursor: canJoin ? 'pointer' : 'not-allowed', opacity: canJoin ? 1 : 0.6 }}
           >
             BET ITEMS
           </button>
@@ -99,7 +99,7 @@ export default function JackpotWheel({ jackpot, onJackpotJoined }: JackpotWheelP
                   </div>
                 </div>
                 <div style={{ textAlign: 'right', fontFamily: 'Poppins', whiteSpace: 'nowrap' }}>
-                  <div style={{ color: '#C77DFF', fontWeight: 700 }}>B${Math.round(entry.totalValue).toLocaleString()}</div>
+                  <div style={{ color: '#F04451', fontWeight: 700 }}>B${Math.round(entry.totalValue).toLocaleString()}</div>
                   <div style={{ marginTop: '4px', color: '#656F86', fontSize: '12px' }}>{chance.toFixed(2)}%</div>
                 </div>
               </div>
@@ -114,7 +114,7 @@ export default function JackpotWheel({ jackpot, onJackpotJoined }: JackpotWheelP
 
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '12px', marginTop: '10px', padding: '14px 16px', background: '#191D29', border: '2px solid #1B1F2D', borderRadius: '15px', fontFamily: 'Poppins' }}>
           <span style={{ minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', color: '#999FAE', whiteSpace: 'nowrap' }}>{jackpot ? `Round #${jackpot._id.slice(-8)}` : 'Waiting for round'}</span>
-          <strong style={{ color: '#C77DFF', whiteSpace: 'nowrap' }}>B${Math.round(jackpot?.totalValue || 0).toLocaleString()}</strong>
+          <strong style={{ color: '#F04451', whiteSpace: 'nowrap' }}>B${Math.round(jackpot?.totalValue || 0).toLocaleString()}</strong>
         </div>
 
         <JoinJackpotModal
@@ -166,7 +166,7 @@ export default function JackpotWheel({ jackpot, onJackpotJoined }: JackpotWheelP
             right: '0%',
             top: '0%',
             bottom: '0%',
-            background: '#C77DFF',
+            background: '#F04451',
             borderRadius: '15px',
           }}
         />
@@ -515,7 +515,7 @@ export default function JackpotWheel({ jackpot, onJackpotJoined }: JackpotWheelP
                 fontWeight: '700',
                 fontSize: '20px',
                 lineHeight: '30px',
-                color: '#C77DFF',
+                color: '#F04451',
               }}
             >
               B${Math.round(entry.totalValue).toLocaleString()}
@@ -616,7 +616,7 @@ export default function JackpotWheel({ jackpot, onJackpotJoined }: JackpotWheelP
                 fontSize: '16px',
                 lineHeight: '24px',
                 textAlign: 'center',
-                background: 'linear-gradient(178.3deg, #E5D5FF -96.52%, #999999 104.91%), #C77DFF',
+                background: 'linear-gradient(178.3deg, #E5D5FF -96.52%, #999999 104.91%), #F04451',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text',
@@ -651,7 +651,7 @@ export default function JackpotWheel({ jackpot, onJackpotJoined }: JackpotWheelP
                   fontWeight: '700',
                   fontSize: '20px',
                   lineHeight: '30px',
-                  color: '#C77DFF',
+                  color: '#F04451',
                 }}
               >
                 B${Math.round(jackpot?.totalValue || 0).toLocaleString()}

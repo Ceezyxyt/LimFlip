@@ -79,7 +79,7 @@ function LoadingScreen({ isFadingOut }: { isFadingOut: boolean }) {
         }}
       >
         <img
-          src="/assets/svg/ui/logo.svg"
+          src="/assets/svg/ui/bloxsurge-logo.png"
           alt="Loading"
           style={{
             width: '300px',
@@ -131,8 +131,8 @@ function MaintenancePage() {
         }}
       >
         <img
-          src="/assets/svg/ui/logo.svg"
-          alt="MM2Stake logo"
+          src="/assets/svg/ui/bloxsurge-logo.png"
+          alt="Bloxsurge logo"
           width={459}
           height={248}
           style={{ width: '100%', height: '100%' }}

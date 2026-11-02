@@ -462,7 +462,7 @@ export default function UpgraderPage() {
                   >
                     <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
                       <img src="/assets/svg/home/wallet.svg" alt="" width={16} height={14} />
-                      <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#C77DFF' }}>
+                      <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#F04451' }}>
                         {win.inputValue}
                       </span>
                     </div>
@@ -476,15 +476,15 @@ export default function UpgraderPage() {
                         padding: '4px 8px',
                       }}
                     >
-                      <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#C77DFF' }}>+</span>
+                      <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#F04451' }}>+</span>
                       <img src="/assets/svg/home/wallet.svg" alt="" width={16} height={14} />
-                      <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#C77DFF' }}>
+                      <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#F04451' }}>
                         {win.outputValue - win.inputValue}
                       </span>
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
                       <img src="/assets/svg/home/wallet.svg" alt="" width={16} height={14} />
-                      <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#C77DFF' }}>
+                      <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#F04451' }}>
                         {win.outputValue}
                       </span>
                     </div>
@@ -604,7 +604,7 @@ export default function UpgraderPage() {
                       </span>
                     </div>
                     <div>
-                      <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#C77DFF' }}>
+                      <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#F04451' }}>
                         {win.multiplier.toFixed(2)}
                       </span>
                       <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#FFFFFF' }}>
@@ -704,7 +704,7 @@ export default function UpgraderPage() {
                             <div style={{ display: 'flex', marginLeft: '-16px' }}></div>
                           </div>
                         </div>
-                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '18px', fontWeight: 600, color: '#C77DFF' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '18px', fontWeight: 600, color: '#F04451' }}>
                           <span style={{ marginRight: '4px' }}>+</span>
                           <img src="/assets/svg/home/wallet.svg" width={16} height={14} />
                           <span>0</span>
@@ -717,7 +717,7 @@ export default function UpgraderPage() {
                         height: '100%',
                         width: '100%',
                         borderRadius: '50%',
-                        backgroundColor: '#C77DFF',
+                        backgroundColor: '#F04451',
                         filter: 'blur(16px)',
                         gridArea: '1 / 1 / -1 / -1',
                       }}
@@ -830,7 +830,7 @@ export default function UpgraderPage() {
                           cy="50"
                           r="45"
                           fill="none"
-                          stroke="#C77DFF"
+                          stroke="#F04451"
                           strokeWidth="8"
                           strokeLinecap="round"
                           strokeDasharray={`${(() => {
@@ -870,7 +870,7 @@ export default function UpgraderPage() {
                           transform: 'rotate(0deg) scale(1.1)',
                         }}
                       >
-                        <span style={{ height: 'fit-content', borderLeft: '8px solid transparent', borderRight: '8px solid transparent', borderTop: '16px solid #C77DFF' }}></span>
+                        <span style={{ height: 'fit-content', borderLeft: '8px solid transparent', borderRight: '8px solid transparent', borderTop: '16px solid #F04451' }}></span>
                       </div>
                       <div
                         style={{
@@ -880,7 +880,7 @@ export default function UpgraderPage() {
                           gridArea: '1 / 1 / -1 / -1',
                         }}
                       >
-                        <img src="/assets/svg/ui/logo.svg" alt="" style={{ aspectRatio: '1', width: '100%', opacity: 0.05 }} />
+                        <img src="/assets/svg/ui/bloxsurge-logo.png" alt="" style={{ aspectRatio: '1', width: '100%', opacity: 0.05 }} />
                       </div>
                       <div style={{ textAlign: 'center', gridArea: '1 / 1 / -1 / -1' }}>
                         <span style={{ fontSize: '24px', fontWeight: 500 }}></span>
@@ -916,7 +916,7 @@ export default function UpgraderPage() {
                             <span style={{ display: 'block', fontSize: '20px', fontWeight: 600 }}>
                               {selectedInputItems.length === 1 ? selectedInputItems[0].name : `${selectedInputItems.length} items`}
                             </span>
-                            <span style={{ display: 'flex', alignItems: 'center', gap: '2px', color: '#C77DFF' }}>
+                            <span style={{ display: 'flex', alignItems: 'center', gap: '2px', color: '#F04451' }}>
                               <img src="/assets/svg/home/wallet.svg" width={16} height={14} />
                               <span style={{ fontWeight: 600 }}>{selectedInputItems.reduce((sum, item) => sum + (useMM2Values ? item.price : (item.mm2Value || item.price)), 0)}</span>
                             </span>
@@ -948,7 +948,7 @@ export default function UpgraderPage() {
                         <>
                           <div style={{ zIndex: 20, gridColumn: '1 / -1', gridRow: '1 / -1', display: 'flex', flexDirection: 'column', alignItems: 'flex-end', padding: '3%' }}>
                             <span style={{ display: 'block', fontSize: '20px', fontWeight: 600 }}>{selectedDesiredItems.length} item{selectedDesiredItems.length > 1 ? 's' : ''}</span>
-                            <span style={{ display: 'flex', alignItems: 'center', gap: '2px', color: '#C77DFF' }}>
+                            <span style={{ display: 'flex', alignItems: 'center', gap: '2px', color: '#F04451' }}>
                               <img src="/assets/svg/home/wallet.svg" width={16} height={14} />
                               <span style={{ fontWeight: 600 }}>{selectedDesiredItems.reduce((sum, item) => sum + (useMM2Values ? item.price : (item.mm2Value || item.price)), 0)}</span>
                             </span>
@@ -1033,7 +1033,7 @@ export default function UpgraderPage() {
                           border: '1px solid #333',
                         }}
                       >
-                        <div style={{ fontWeight: 'bold', marginBottom: '8px', color: '#C77DFF' }}>
+                        <div style={{ fontWeight: 'bold', marginBottom: '8px', color: '#F04451' }}>
                           🎲 Provably Fair
                         </div>
                         <div style={{ marginBottom: '4px' }}>
@@ -1104,7 +1104,7 @@ export default function UpgraderPage() {
                 {/* Multiplier Display */}
                 <div style={{ textAlign: 'center', marginBottom: '0', marginTop: '20px' }}>
                   <span>Multiplier: </span>
-                  <span style={{ fontWeight: 600, color: '#C77DFF' }}>
+                  <span style={{ fontWeight: 600, color: '#F04451' }}>
                     {selectedDesiredItems.length > 0 && (balanceAmount.trim() !== '' ? parseFloat(balanceAmount) > 0 : selectedInputItems.length > 0)
                       ? (selectedDesiredItems.reduce((sum, item) => sum + (useMM2Values ? item.price : (item.mm2Value || item.price)), 0) / (balanceAmount.trim() !== '' ? parseFloat(balanceAmount) || 1 : selectedInputItems.reduce((sum, item) => sum + (useMM2Values ? item.price : (item.mm2Value || item.price)), 0))).toFixed(2)
                       : '0.00'}
@@ -1165,7 +1165,7 @@ export default function UpgraderPage() {
                 <div style={{ display: 'flex', justifyContent: 'space-between', position: 'relative', zIndex: 1000, pointerEvents: 'auto' }}>
                   <div style={{ pointerEvents: 'auto' }}>
                     <div style={{ fontSize: '18px', fontWeight: 600, color: '#FFFFFF' }}>{balanceAmount.trim() !== '' ? 'Balance' : 'Selected Total'}</div>
-                    <span style={{ display: 'flex', alignItems: 'center', gap: '2px', color: '#C77DFF' }}>
+                    <span style={{ display: 'flex', alignItems: 'center', gap: '2px', color: '#F04451' }}>
                       <img src="/assets/svg/home/wallet.svg" width={16} height={14} />
                       <span style={{ fontWeight: 600 }}>{balanceAmount.trim() !== '' ? (parseFloat(balanceAmount) || 0).toFixed(2) : selectedInputItems.reduce((sum, item) => sum + (useMM2Values ? item.price : (item.mm2Value || item.price)), 0).toFixed(2)}</span>
                     </span>
@@ -1185,7 +1185,7 @@ export default function UpgraderPage() {
                       gap: '8px',
                       whiteSpace: 'nowrap',
                       borderRadius: '8px',
-                      backgroundColor: isUpgrading ? '#2A3040' : '#C77DFF',
+                      backgroundColor: isUpgrading ? '#2A3040' : '#F04451',
                       color: '#FFFFFF',
                       padding: '8px 16px',
                       height: 'unset',
@@ -1205,7 +1205,7 @@ export default function UpgraderPage() {
                   </button>
                   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', pointerEvents: 'auto' }}>
                     <div style={{ fontSize: '18px', fontWeight: 600, color: '#FFFFFF' }}>Desired Total</div>
-                    <span style={{ display: 'flex', alignItems: 'center', gap: '2px', color: '#C77DFF' }}>
+                    <span style={{ display: 'flex', alignItems: 'center', gap: '2px', color: '#F04451' }}>
                       <img src="/assets/svg/home/wallet.svg" width={16} height={14} />
                       <span style={{ fontWeight: 600 }}>{selectedDesiredItems.reduce((sum, item) => sum + (useMM2Values ? item.price : (item.mm2Value || item.price)), 0)}</span>
                     </span>
@@ -1291,7 +1291,7 @@ export default function UpgraderPage() {
                             <div style={{ display: 'flex', marginLeft: '-16px' }}></div>
                           </div>
                         </div>
-                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '14px', fontWeight: 600, color: '#C77DFF' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '14px', fontWeight: 600, color: '#F04451' }}>
                           <span style={{ marginRight: '4px' }}>+</span>
                           <img src="/assets/svg/home/wallet.svg" width={14} height={12} />
                           <span>0</span>
@@ -1304,7 +1304,7 @@ export default function UpgraderPage() {
                         height: '100%',
                         width: '100%',
                         borderRadius: '50%',
-                        backgroundColor: '#C77DFF',
+                        backgroundColor: '#F04451',
                         filter: 'blur(16px)',
                         gridArea: '1 / 1 / -1 / -1',
                       }}
@@ -1417,7 +1417,7 @@ export default function UpgraderPage() {
                           cy="50"
                           r="45"
                           fill="none"
-                          stroke="#C77DFF"
+                          stroke="#F04451"
                           strokeWidth="8"
                           strokeLinecap="round"
                           strokeDasharray={`${(() => {
@@ -1457,7 +1457,7 @@ export default function UpgraderPage() {
                           transform: 'rotate(0deg) scale(1.1)',
                         }}
                       >
-                        <span style={{ height: 'fit-content', borderLeft: '8px solid transparent', borderRight: '8px solid transparent', borderTop: '16px solid #C77DFF' }}></span>
+                        <span style={{ height: 'fit-content', borderLeft: '8px solid transparent', borderRight: '8px solid transparent', borderTop: '16px solid #F04451' }}></span>
                       </div>
                       <div
                         style={{
@@ -1467,7 +1467,7 @@ export default function UpgraderPage() {
                           gridArea: '1 / 1 / -1 / -1',
                         }}
                       >
-                        <img src="/assets/svg/ui/logo.svg" alt="" style={{ aspectRatio: '1', width: '100%', opacity: 0.05 }} />
+                        <img src="/assets/svg/ui/bloxsurge-logo.png" alt="" style={{ aspectRatio: '1', width: '100%', opacity: 0.05 }} />
                       </div>
                       <div style={{ textAlign: 'center', gridArea: '1 / 1 / -1 / -1' }}>
                         <span style={{ fontSize: '16px', fontWeight: 500 }}></span>
@@ -1531,7 +1531,7 @@ export default function UpgraderPage() {
                 {/* Mobile Multiplier Display */}
                 <div style={{ textAlign: 'center', marginBottom: '0', marginTop: '10px' }}>
                   <span style={{ fontSize: '14px' }}>Multiplier: </span>
-                  <span style={{ fontWeight: 600, color: '#C77DFF', fontSize: '16px' }}>
+                  <span style={{ fontWeight: 600, color: '#F04451', fontSize: '16px' }}>
                     {selectedDesiredItems.length > 0 && (balanceAmount.trim() !== '' ? parseFloat(balanceAmount) > 0 : selectedInputItems.length > 0)
                       ? (selectedDesiredItems.reduce((sum, item) => sum + (useMM2Values ? item.price : (item.mm2Value || item.price)), 0) / (balanceAmount.trim() !== '' ? parseFloat(balanceAmount) || 1 : selectedInputItems.reduce((sum, item) => sum + (useMM2Values ? item.price : (item.mm2Value || item.price)), 0))).toFixed(2)
                       : '0.00'}
@@ -1592,7 +1592,7 @@ export default function UpgraderPage() {
                 <div style={{ display: 'flex', justifyContent: 'space-between', position: 'relative', zIndex: 1000, pointerEvents: 'auto', gap: '12px' }}>
                   <div style={{ pointerEvents: 'auto', flex: 1 }}>
                     <div style={{ fontSize: '14px', fontWeight: 600, color: '#FFFFFF' }}>{balanceAmount.trim() !== '' ? 'Balance' : 'Selected'}</div>
-                    <span style={{ display: 'flex', alignItems: 'center', gap: '2px', color: '#C77DFF' }}>
+                    <span style={{ display: 'flex', alignItems: 'center', gap: '2px', color: '#F04451' }}>
                       <img src="/assets/svg/home/wallet.svg" width={14} height={12} />
                       <span style={{ fontWeight: 600 }}>{balanceAmount.trim() !== '' ? (parseFloat(balanceAmount) || 0).toFixed(2) : selectedInputItems.reduce((sum, item) => sum + (useMM2Values ? item.price : (item.mm2Value || item.price)), 0).toFixed(2)}</span>
                     </span>
@@ -1612,7 +1612,7 @@ export default function UpgraderPage() {
                       gap: '8px',
                       whiteSpace: 'nowrap',
                       borderRadius: '8px',
-                      backgroundColor: isUpgrading ? '#2A3040' : '#C77DFF',
+                      backgroundColor: isUpgrading ? '#2A3040' : '#F04451',
                       color: '#FFFFFF',
                       padding: '10px 20px',
                       height: 'unset',
@@ -1632,7 +1632,7 @@ export default function UpgraderPage() {
                   </button>
                   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', pointerEvents: 'auto', flex: 1 }}>
                     <div style={{ fontSize: '14px', fontWeight: 600, color: '#FFFFFF' }}>Desired</div>
-                    <span style={{ display: 'flex', alignItems: 'center', gap: '2px', color: '#C77DFF' }}>
+                    <span style={{ display: 'flex', alignItems: 'center', gap: '2px', color: '#F04451' }}>
                       <img src="/assets/svg/home/wallet.svg" width={14} height={12} />
                       <span style={{ fontWeight: 600 }}>{selectedDesiredItems.reduce((sum, item) => sum + item.price, 0)}</span>
                     </span>
@@ -1759,9 +1759,9 @@ export default function UpgraderPage() {
                           style={{
                             cursor: useMM2Values ? 'not-allowed' : 'pointer',
                             borderRadius: '8px',
-                            borderTop: selectedInputItems.some(selected => selected.uniqueId === item.uniqueId) ? '2px solid #C77DFF' : '2px solid transparent',
-                            borderRight: selectedInputItems.some(selected => selected.uniqueId === item.uniqueId) ? '2px solid #C77DFF' : '2px solid transparent',
-                            borderLeft: selectedInputItems.some(selected => selected.uniqueId === item.uniqueId) ? '2px solid #C77DFF' : '2px solid transparent',
+                            borderTop: selectedInputItems.some(selected => selected.uniqueId === item.uniqueId) ? '2px solid #F04451' : '2px solid transparent',
+                            borderRight: selectedInputItems.some(selected => selected.uniqueId === item.uniqueId) ? '2px solid #F04451' : '2px solid transparent',
+                            borderLeft: selectedInputItems.some(selected => selected.uniqueId === item.uniqueId) ? '2px solid #F04451' : '2px solid transparent',
                             borderBottom: '8px solid #2A3040',
                             backgroundColor: '#131621',
                             padding: '16px 8px 8px',
@@ -1804,7 +1804,7 @@ export default function UpgraderPage() {
                             <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#FFFFFF', maxWidth: '96px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                               {item.name}
                             </span>
-                            <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#C77DFF' }}>
+                            <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#F04451' }}>
                               R${useMM2Values ? item.price : (item.mm2Value || item.price)}
                             </span>
                           </div>
@@ -1919,9 +1919,9 @@ export default function UpgraderPage() {
                           style={{
                             cursor: 'pointer',
                             borderRadius: '8px',
-                            borderTop: selectedDesiredItems.some(i => i.uniqueId === item.uniqueId) ? '2px solid #C77DFF' : '2px solid transparent',
-                            borderRight: selectedDesiredItems.some(i => i.uniqueId === item.uniqueId) ? '2px solid #C77DFF' : '2px solid transparent',
-                            borderLeft: selectedDesiredItems.some(i => i.uniqueId === item.uniqueId) ? '2px solid #C77DFF' : '2px solid transparent',
+                            borderTop: selectedDesiredItems.some(i => i.uniqueId === item.uniqueId) ? '2px solid #F04451' : '2px solid transparent',
+                            borderRight: selectedDesiredItems.some(i => i.uniqueId === item.uniqueId) ? '2px solid #F04451' : '2px solid transparent',
+                            borderLeft: selectedDesiredItems.some(i => i.uniqueId === item.uniqueId) ? '2px solid #F04451' : '2px solid transparent',
                             borderBottom: '8px solid #2A3040',
                             backgroundColor: '#131621',
                             padding: '16px 8px 8px',
@@ -1962,7 +1962,7 @@ export default function UpgraderPage() {
                             <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#FFFFFF', maxWidth: '96px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                               {item.name}
                             </span>
-                            <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#C77DFF' }}>
+                            <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#F04451' }}>
                               R${useMM2Values ? item.price : (item.mm2Value || item.price)}
                             </span>
                           </div>
@@ -2043,9 +2043,9 @@ export default function UpgraderPage() {
                           style={{
                             cursor: useMM2Values ? 'not-allowed' : 'pointer',
                             borderRadius: '8px',
-                            borderTop: selectedInputItems.some(selected => selected.uniqueId === item.uniqueId) ? '2px solid #C77DFF' : '2px solid transparent',
-                            borderRight: selectedInputItems.some(selected => selected.uniqueId === item.uniqueId) ? '2px solid #C77DFF' : '2px solid transparent',
-                            borderLeft: selectedInputItems.some(selected => selected.uniqueId === item.uniqueId) ? '2px solid #C77DFF' : '2px solid transparent',
+                            borderTop: selectedInputItems.some(selected => selected.uniqueId === item.uniqueId) ? '2px solid #F04451' : '2px solid transparent',
+                            borderRight: selectedInputItems.some(selected => selected.uniqueId === item.uniqueId) ? '2px solid #F04451' : '2px solid transparent',
+                            borderLeft: selectedInputItems.some(selected => selected.uniqueId === item.uniqueId) ? '2px solid #F04451' : '2px solid transparent',
                             borderBottom: '8px solid #2A3040',
                             backgroundColor: '#131621',
                             padding: '12px 8px 8px',
@@ -2088,7 +2088,7 @@ export default function UpgraderPage() {
                             <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '12px', color: '#FFFFFF', maxWidth: '60px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                               {item.name}
                             </span>
-                            <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '12px', color: '#C77DFF' }}>
+                            <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '12px', color: '#F04451' }}>
                               R${useMM2Values ? item.price : (item.mm2Value || item.price)}
                             </span>
                           </div>
@@ -2175,9 +2175,9 @@ export default function UpgraderPage() {
                           style={{
                             cursor: 'pointer',
                             borderRadius: '8px',
-                            borderTop: selectedDesiredItems.some(i => i.uniqueId === item.uniqueId) ? '2px solid #C77DFF' : '2px solid transparent',
-                            borderRight: selectedDesiredItems.some(i => i.uniqueId === item.uniqueId) ? '2px solid #C77DFF' : '2px solid transparent',
-                            borderLeft: selectedDesiredItems.some(i => i.uniqueId === item.uniqueId) ? '2px solid #C77DFF' : '2px solid transparent',
+                            borderTop: selectedDesiredItems.some(i => i.uniqueId === item.uniqueId) ? '2px solid #F04451' : '2px solid transparent',
+                            borderRight: selectedDesiredItems.some(i => i.uniqueId === item.uniqueId) ? '2px solid #F04451' : '2px solid transparent',
+                            borderLeft: selectedDesiredItems.some(i => i.uniqueId === item.uniqueId) ? '2px solid #F04451' : '2px solid transparent',
                             borderBottom: '8px solid #2A3040',
                             backgroundColor: '#131621',
                             padding: '12px 8px 8px',
@@ -2218,7 +2218,7 @@ export default function UpgraderPage() {
                             <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '12px', color: '#FFFFFF', maxWidth: '60px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                               {item.name}
                             </span>
-                            <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '12px', color: '#C77DFF' }}>
+                            <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '12px', color: '#F04451' }}>
                               R${useMM2Values ? item.price : (item.mm2Value || item.price)}
                             </span>
                           </div>

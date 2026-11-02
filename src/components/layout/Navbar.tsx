@@ -164,8 +164,8 @@ export default function Navbar({ onSignUpClick, onLogInClick, onCoinflipClick, o
         <div style={{ display: 'flex', alignItems: 'center', gap: isMobile ? '10px' : '26px', minWidth: 0, flex: 1 }}>
           {isMobile && (
             <img
-              src="/assets/svg/ui/logo.svg"
-              alt="MM2Stake"
+              src="/assets/svg/ui/bloxsurge-logo.png"
+              alt="Bloxsurge"
               style={{
                 width: '120px',
                 height: '23px',
@@ -232,7 +232,7 @@ export default function Navbar({ onSignUpClick, onLogInClick, onCoinflipClick, o
                           fontWeight: 600,
                           fontSize: '17px',
                           lineHeight: '24px',
-                          color: '#C77DFF',
+                          color: '#F04451',
                         }}
                       >
                         {item.badge}
@@ -250,7 +250,7 @@ export default function Navbar({ onSignUpClick, onLogInClick, onCoinflipClick, o
             <>
               {!isMobile && (
                 <>
-                  <button type="button" onClick={() => onSellItemsClick && onSellItemsClick()} style={{ width: '126px', height: '44px', background: '#C77DFF', borderRadius: '12px', border: 'none', cursor: 'pointer', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <button type="button" onClick={() => onSellItemsClick && onSellItemsClick()} style={{ width: '126px', height: '44px', background: '#F04451', borderRadius: '12px', border: 'none', cursor: 'pointer', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <div style={{ position: 'absolute', width: '23px', height: '23px', left: '13px', top: '10px', background: '#D9D9D9', borderRadius: '37px' }}>
                       <svg width="16.56" height="17.48" viewBox="0 0 16.56 17.48" fill="none" style={{ position: 'absolute', left: '2.76px', top: '2.76px', transform: 'rotate(-90deg)' }}>
                         <path d="M3.65 8.74L12.91 8.74" stroke="#A855F7" strokeWidth="2" />
@@ -277,7 +277,7 @@ export default function Navbar({ onSignUpClick, onLogInClick, onCoinflipClick, o
                           top: 0,
                           width: '115px',
                           height: '44px',
-                          background: '#C77DFF',
+                          background: '#F04451',
                           borderRadius: '0 12px 12px 0',
                           display: 'flex',
                           alignItems: 'center',
@@ -408,7 +408,7 @@ export default function Navbar({ onSignUpClick, onLogInClick, onCoinflipClick, o
                           fontWeight: 500,
                           fontSize: '13px',
                           lineHeight: '20px',
-                          color: pathname === '/market' ? '#C77DFF' : '#FFFFFF',
+                          color: pathname === '/market' ? '#F04451' : '#FFFFFF',
                           cursor: 'pointer',
                           flex: 'none',
                           order: 1,
@@ -504,7 +504,7 @@ export default function Navbar({ onSignUpClick, onLogInClick, onCoinflipClick, o
               style={{
                 height: isMobile ? '36px' : '44px',
                 padding: isMobile ? '0 14px' : '0 24px',
-                background: '#C77DFF',
+                background: '#F04451',
                 borderRadius: '12px',
                 border: 'none',
                 cursor: 'pointer',
@@ -548,7 +548,7 @@ export default function Navbar({ onSignUpClick, onLogInClick, onCoinflipClick, o
             height: '4px',
             left: `${underlineLeft}px`,
             bottom: 0,
-            background: '#C77DFF',
+            background: '#F04451',
             borderRadius: '26px 26px 0 0',
             transition: 'left 0.3s ease-out, width 0.3s ease-out',
           }}

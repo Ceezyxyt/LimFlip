@@ -96,7 +96,7 @@ export default function LinkingTab() {
             height: '47px',
             left: '310px',
             top: '10px',
-            background: '#C77DFF',
+            background: '#F04451',
             borderRadius: '17px',
           }}
         >
@@ -417,7 +417,7 @@ export default function LinkingTab() {
             height: '47px',
             left: '310px',
             top: '10px',
-            background: '#C77DFF',
+            background: '#F04451',
             borderRadius: '17px',
           }}
         >

@@ -144,7 +144,7 @@ export default function ProfileTab() {
                 display: 'block',
               }}
             >
-              Access your profile at https://MM2Stake.com/profile/justjakep
+              Access your profile at https://Bloxsurge.com/profile/justjakep
             </span>
             <div
               style={{
@@ -157,7 +157,7 @@ export default function ProfileTab() {
                 style={{
                   width: '73px',
                   height: '34px',
-                  background: '#C77DFF',
+                  background: '#F04451',
                   borderRadius: '15px',
                   display: 'flex',
                   alignItems: 'center',
@@ -225,7 +225,7 @@ export default function ProfileTab() {
                   color: '#717991',
                 }}
               >
-                j***p@MM2Stake.com
+                j***p@Bloxsurge.com
               </span>
             </div>
             <span
@@ -357,7 +357,7 @@ export default function ProfileTab() {
           style={{
             width: '100%',
             height: '57px',
-            background: '#C77DFF',
+            background: '#F04451',
             borderRadius: '15px',
             display: 'flex',
             alignItems: 'center',
@@ -433,7 +433,7 @@ export default function ProfileTab() {
             style={{
               width: '100%',
               height: '57px',
-              background: '#C77DFF',
+              background: '#F04451',
               borderRadius: '15px',
               display: 'flex',
               alignItems: 'center',

@@ -752,7 +752,7 @@ export default function ProfilePage() {
                 height: isMobile ? '50px' : '57px',
                 left: isMobile ? '0' : '28px',
                 top: isMobile ? '0' : '129px',
-                background: '#C77DFF',
+                background: '#F04451',
                 borderRadius: '15px',
                 cursor: 'pointer',
                 display: 'flex',
@@ -1099,7 +1099,7 @@ export default function ProfilePage() {
                     marginBottom: isMobile ? '5px' : '0',
                   }}
                 >
-                  Access your profile at https://MM2Stake.com/profile/justjakep
+                  Access your profile at https://Bloxsurge.com/profile/justjakep
                 </span>
                 <div
                   style={{
@@ -1108,7 +1108,7 @@ export default function ProfilePage() {
                     height: isMobile ? '40px' : '34px',
                     left: isMobile ? '0' : '523px',
                     top: isMobile ? '0' : '44px',
-                    background: '#C77DFF',
+                    background: '#F04451',
                     borderRadius: '15px',
                     cursor: 'pointer',
                     display: 'flex',
@@ -1186,7 +1186,7 @@ export default function ProfilePage() {
                     color: '#717991',
                   }}
                 >
-                  j***p@MM2Stake.com
+                  j***p@Bloxsurge.com
                 </span>
                 <span
                   style={{
@@ -1376,7 +1376,7 @@ export default function ProfilePage() {
                 height: isMobile ? '50px' : '57px',
                 left: isMobile ? '0' : '22px',
                 top: isMobile ? '0' : '663px',
-                background: '#C77DFF',
+                background: '#F04451',
                 borderRadius: '15px',
                 cursor: 'pointer',
                 display: 'flex',

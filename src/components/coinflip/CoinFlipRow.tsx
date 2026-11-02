@@ -654,7 +654,7 @@ export default function CoinFlipRow({ game, topOffset, winner, onJoinClick, onVi
               fontWeight: '700',
               fontSize: '18px',
               lineHeight: '20px',
-              color: '#C77DFF',
+              color: '#F04451',
             }}
           >
             {formatAmount(game?.totalValue || 0)}
@@ -753,7 +753,7 @@ export default function CoinFlipRow({ game, topOffset, winner, onJoinClick, onVi
               cy="25"
               r="20"
               fill="none"
-              stroke="#C77DFF"
+              stroke="#F04451"
               strokeWidth="4"
               strokeLinecap="round"
               strokeDasharray="80"
@@ -813,7 +813,7 @@ export default function CoinFlipRow({ game, topOffset, winner, onJoinClick, onVi
                 right: '9.46%',
                 top: '0%',
                 bottom: '0%',
-                background: canCancel ? '#FF4444' : '#C77DFF',
+                background: canCancel ? '#FF4444' : '#F04451',
                 borderRadius: '15px',
               }}
             />

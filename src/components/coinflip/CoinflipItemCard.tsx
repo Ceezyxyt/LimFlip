@@ -86,7 +86,7 @@ export default function CoinflipItemCard({ imageSrc, itemName = 'Gingerscope', i
 
         
         <img
-          src="/assets/svg/ui/logo.svg"
+          src="/assets/svg/ui/bloxsurge-logo.png"
           alt="Logo"
           style={{
             position: 'absolute',

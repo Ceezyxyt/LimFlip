@@ -31,8 +31,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "MM2Stake.com - Leading MM2 Casino with finest gamemodes in the world!",
-  description: "MM2Stake.com is a crypto/mm2 casino with various game-modes including coinflip, jackpot and more. We also offer a marketplace service with lowest selling/buying fees! Visit MM2Stake.com!",
+  title: "Bloxsurge - MM2 Gaming and Marketplace",
+  description: "Bloxsurge is a modern MM2 gaming and marketplace platform for coinflip, jackpot, trading, and more.",
 };
 
 export const viewport: Viewport = {

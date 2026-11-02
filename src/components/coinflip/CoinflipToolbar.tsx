@@ -62,7 +62,7 @@ export default function CoinflipToolbar({ onBetItemsClick, onPlaceBetClick }: Co
               onClick={onBetItemsClick}
               style={{
                 height: '36px',
-                background: '#C77DFF',
+                background: '#F04451',
                 borderRadius: '12px',
                 border: 'none',
                 cursor: 'pointer',
@@ -107,7 +107,7 @@ export default function CoinflipToolbar({ onBetItemsClick, onPlaceBetClick }: Co
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                 <img src="/assets/svg/home/wallet.svg" alt="Total Bets" style={{ width: '16px', height: '14px' }} />
-                <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#C77DFF' }}>{formatAmount(totalBets)}</span>
+                <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#F04451' }}>{formatAmount(totalBets)}</span>
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@ export default function CoinflipToolbar({ onBetItemsClick, onPlaceBetClick }: Co
             style={{
               minWidth: '121px',
               height: '42px',
-              background: isPlacingBet || !balanceAmount || parseFloat(balanceAmount) <= 0 ? '#1C212E' : '#C77DFF',
+              background: isPlacingBet || !balanceAmount || parseFloat(balanceAmount) <= 0 ? '#1C212E' : '#F04451',
               borderRadius: '15px',
               border: 'none',
               cursor: isPlacingBet || !balanceAmount || parseFloat(balanceAmount) <= 0 ? 'not-allowed' : 'pointer',
@@ -247,7 +247,7 @@ export default function CoinflipToolbar({ onBetItemsClick, onPlaceBetClick }: Co
             style={{
               minWidth: '121px',
               height: '42px',
-              background: '#C77DFF',
+              background: '#F04451',
               borderRadius: '15px',
               border: 'none',
               cursor: 'pointer',
@@ -268,11 +268,11 @@ export default function CoinflipToolbar({ onBetItemsClick, onPlaceBetClick }: Co
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
               <img src="/assets/svg/home/wallet.svg" alt="Total Bets" style={{ width: '20px', height: '16px' }} />
-              <span style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '18px', color: '#C77DFF' }}>{formatAmount(totalBets)}</span>
+              <span style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '18px', color: '#F04451' }}>{formatAmount(totalBets)}</span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
               <img src="/assets/svg/home/wallet.svg" alt="Your Bets" style={{ width: '20px', height: '16px' }} />
-              <span style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '18px', color: '#C77DFF' }}>{formatAmount(yourBets)}</span>
+              <span style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '18px', color: '#F04451' }}>{formatAmount(yourBets)}</span>
             </div>
           </div>
 

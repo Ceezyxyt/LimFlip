@@ -629,7 +629,7 @@ export default function MarketplaceContent({ onMyListingsClick }: MarketplaceCon
                     display: 'flex',
                     flexDirection: 'row',
                     alignItems: 'center',
-                    backgroundColor: '#C77DFF',
+                    backgroundColor: '#F04451',
                     borderRadius: '12px',
                     padding: '10px 15px',
                     boxShadow: '0px 8.08px 17px rgba(0, 0, 0, 0.12)',
@@ -792,7 +792,7 @@ export default function MarketplaceContent({ onMyListingsClick }: MarketplaceCon
                     display: 'flex',
                     flexDirection: 'row',
                     alignItems: 'center',
-                    backgroundColor: '#C77DFF',
+                    backgroundColor: '#F04451',
                     borderRadius: '15px',
                     padding: '12px 19px',
                     boxShadow: '0px 8.08px 17px rgba(0, 0, 0, 0.12)',
@@ -872,7 +872,7 @@ export default function MarketplaceContent({ onMyListingsClick }: MarketplaceCon
                     ? 'inset 0px 4px 111.6px rgba(199, 125, 255, 0.2)' 
                     : '0px 4px 56.6px rgba(0, 0, 0, 0.035)',
                   borderRadius: '15px',
-                  border: selectedItems.has(listing._id) ? '1px solid #C77DFF' : 'none',
+                  border: selectedItems.has(listing._id) ? '1px solid #F04451' : 'none',
                   cursor: 'pointer',
                 }}
               >
@@ -1069,7 +1069,7 @@ export default function MarketplaceContent({ onMyListingsClick }: MarketplaceCon
                   fontWeight: '600',
                   fontSize: '13px',
                   lineHeight: '20px',
-                  color: '#C77DFF',
+                  color: '#F04451',
                 }}
               >
                 {listing.item.value > 0 ? `${(listing.price / listing.item.value * 1000).toFixed(2)}/1k` : ''}
@@ -1083,7 +1083,7 @@ export default function MarketplaceContent({ onMyListingsClick }: MarketplaceCon
                   height: '6px',
                   left: '64px',
                   top: '226px',
-                  background: '#C77DFF',
+                  background: '#F04451',
                   borderRadius: '4px 4px 0px 0px',
                   transform: 'matrix(-1, 0, 0, 1, 0, 0)',
                 }}
@@ -1106,7 +1106,7 @@ export default function MarketplaceContent({ onMyListingsClick }: MarketplaceCon
                     height: '32px',
                     left: '6px',
                     top: '6.5px',
-                    background: '#C77DFF',
+                    background: '#F04451',
                     borderRadius: '9px',
                     cursor: 'pointer',
                     display: 'flex',
@@ -1548,7 +1548,7 @@ export default function MarketplaceContent({ onMyListingsClick }: MarketplaceCon
                     fontSize: '14px',
                     lineHeight: '21px',
                     letterSpacing: '-0.02em',
-                    color: '#C77DFF',
+                    color: '#F04451',
                   }}
                 >
                   Items In Cart
@@ -1564,7 +1564,7 @@ export default function MarketplaceContent({ onMyListingsClick }: MarketplaceCon
                     fontSize: '14px',
                     lineHeight: '21px',
                     letterSpacing: '-0.02em',
-                    color: '#C77DFF',
+                    color: '#F04451',
                   }}
                 >
                   {cartItems.length}
@@ -1638,7 +1638,7 @@ export default function MarketplaceContent({ onMyListingsClick }: MarketplaceCon
                 gap: '9.16px',
                 width: isMobile ? '100%' : '314px',
                 height: isMobile ? '50px' : '40px',
-                backgroundColor: isPurchasing || cartItems.length === 0 ? '#404763' : '#C77DFF',
+                backgroundColor: isPurchasing || cartItems.length === 0 ? '#404763' : '#F04451',
                 boxShadow: '0px 10.9967px 23.9177px rgba(0, 0, 0, 0.22)',
                 borderRadius: '15px',
                 border: 'none',

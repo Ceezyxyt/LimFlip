@@ -254,8 +254,8 @@ export default function Sidebar({ onProfileClick, onGiftClick, onRulesClick }: S
             }}
           >
             <img
-              src="/assets/svg/ui/logo.svg"
-              alt="MM2Stake logo"
+              src="/assets/svg/ui/bloxsurge-logo.png"
+              alt="Bloxsurge logo"
               style={{
                 width: '100%',
                 height: '100%',
