@@ -169,6 +169,7 @@ export default function Navbar({ onSignUpClick, onLogInClick, onCoinflipClick, o
               style={{
                 width: '120px',
                 height: '23px',
+                objectFit: 'contain',
                 flexShrink: 0,
               }}
             />
