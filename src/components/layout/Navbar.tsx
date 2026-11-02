@@ -163,6 +163,7 @@ export default function Navbar({ onSignUpClick, onLogInClick, onCoinflipClick, o
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: isMobile ? '10px' : '26px', minWidth: 0, flex: 1 }}>
           {isMobile && (
+            <>
             <img
               src="/assets/svg/ui/bloxsurge-dice-logo.png"
               alt="Bloxsurge"
@@ -173,6 +174,10 @@ export default function Navbar({ onSignUpClick, onLogInClick, onCoinflipClick, o
                 flexShrink: 0,
               }}
             />
+            <span style={{ fontWeight: 800, fontSize: '16px', letterSpacing: '-0.04em' }}>
+              <span style={{ color: '#F04451' }}>Blox</span><span style={{ color: '#FFFFFF' }}>Surge</span>
+            </span>
+            </>
           )}
 
           {!isMobile && (

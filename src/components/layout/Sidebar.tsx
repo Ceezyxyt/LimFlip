@@ -262,6 +262,9 @@ export default function Sidebar({ onProfileClick, onGiftClick, onRulesClick }: S
                 objectFit: 'contain',
               }}
             />
+            <span style={{ fontWeight: 800, fontSize: '20px', letterSpacing: '-0.04em' }}>
+              <span style={{ color: '#F04451' }}>Blox</span><span style={{ color: '#FFFFFF' }}>Surge</span>
+            </span>
           </div>
         </Link>
 
