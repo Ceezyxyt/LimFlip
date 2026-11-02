@@ -1,0 +1,7 @@
+# The Express/MongoDB service is deployed separately from the Next.js frontend.
+# Keeping it out of this Vercel project prevents Vercel from installing its
+# Puppeteer and noblox.js postinstall dependencies during frontend deployment.
+api/
+*.lua
+*.py
+browser-console-script.js
