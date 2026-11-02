@@ -188,11 +188,11 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
             top: isMobile ? '0' : 'calc(50% - 531px/2 + 5px)',
             borderRadius: isMobile ? '28px 28px 0 0' : '28px 0px 0px 28px',
             overflow: 'hidden',
-            display: isMobile ? 'none' : 'block',
+            display: 'block',
           }}
         >
           <img
-            src="/assets/images/auth/bloxsurge-banner.png"
+            src="/assets/images/auth/bloxsurge-dice-banner.png"
             alt="Bloxsurge login banner"
             style={{
               width: '100%',
@@ -737,7 +737,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
                             fontWeight: 600,
                             fontSize: isMobile ? '14px' : '16px',
                             lineHeight: '18px',
-                            color: '#A855F7',
+                            color: '#F04451',
                             flex: 'none',
                             order: 1,
                             alignSelf: 'stretch',

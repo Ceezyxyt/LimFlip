@@ -164,11 +164,11 @@ export default function Navbar({ onSignUpClick, onLogInClick, onCoinflipClick, o
         <div style={{ display: 'flex', alignItems: 'center', gap: isMobile ? '10px' : '26px', minWidth: 0, flex: 1 }}>
           {isMobile && (
             <img
-              src="/assets/svg/ui/bloxsurge-logo.png"
+              src="/assets/svg/ui/bloxsurge-dice-logo.png"
               alt="Bloxsurge"
               style={{
-                width: '120px',
-                height: '23px',
+                width: '32px',
+                height: '32px',
                 objectFit: 'contain',
                 flexShrink: 0,
               }}
@@ -254,8 +254,8 @@ export default function Navbar({ onSignUpClick, onLogInClick, onCoinflipClick, o
                   <button type="button" onClick={() => onSellItemsClick && onSellItemsClick()} style={{ width: '126px', height: '44px', background: '#F04451', borderRadius: '12px', border: 'none', cursor: 'pointer', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <div style={{ position: 'absolute', width: '23px', height: '23px', left: '13px', top: '10px', background: '#D9D9D9', borderRadius: '37px' }}>
                       <svg width="16.56" height="17.48" viewBox="0 0 16.56 17.48" fill="none" style={{ position: 'absolute', left: '2.76px', top: '2.76px', transform: 'rotate(-90deg)' }}>
-                        <path d="M3.65 8.74L12.91 8.74" stroke="#A855F7" strokeWidth="2" />
-                        <path d="M8.28 14.07L13.61 8.74L8.28 3.41" stroke="#A855F7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M3.65 8.74L12.91 8.74" stroke="#F04451" strokeWidth="2" />
+                        <path d="M8.28 14.07L13.61 8.74L8.28 3.41" stroke="#F04451" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                     </div>
                     <span style={{ fontFamily: 'Poppins', fontWeight: 600, fontSize: '14px', color: '#FFFFFF', position: 'absolute', left: '43.73px', top: '11px' }}>
@@ -472,8 +472,8 @@ export default function Navbar({ onSignUpClick, onLogInClick, onCoinflipClick, o
                         }}
                       >
                         <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
-                          <path d="M6.5 2.5V10.5" stroke="#A855F7" strokeWidth="2" strokeLinecap="round" />
-                          <path d="M3.5 7.5L6.5 10.5L9.5 7.5" stroke="#A855F7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                          <path d="M6.5 2.5V10.5" stroke="#F04451" strokeWidth="2" strokeLinecap="round" />
+                          <path d="M3.5 7.5L6.5 10.5L9.5 7.5" stroke="#F04451" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                       </div>
                       <span

@@ -880,7 +880,7 @@ export default function UpgraderPage() {
                           gridArea: '1 / 1 / -1 / -1',
                         }}
                       >
-                        <img src="/assets/svg/ui/bloxsurge-logo.png" alt="" style={{ aspectRatio: '1', width: '100%', opacity: 0.05 }} />
+                        <img src="/assets/svg/ui/bloxsurge-dice-logo.png" alt="" style={{ aspectRatio: '1', width: '100%', opacity: 0.05 }} />
                       </div>
                       <div style={{ textAlign: 'center', gridArea: '1 / 1 / -1 / -1' }}>
                         <span style={{ fontSize: '24px', fontWeight: 500 }}></span>
@@ -1467,7 +1467,7 @@ export default function UpgraderPage() {
                           gridArea: '1 / 1 / -1 / -1',
                         }}
                       >
-                        <img src="/assets/svg/ui/bloxsurge-logo.png" alt="" style={{ aspectRatio: '1', width: '100%', opacity: 0.05 }} />
+                        <img src="/assets/svg/ui/bloxsurge-dice-logo.png" alt="" style={{ aspectRatio: '1', width: '100%', opacity: 0.05 }} />
                       </div>
                       <div style={{ textAlign: 'center', gridArea: '1 / 1 / -1 / -1' }}>
                         <span style={{ fontSize: '16px', fontWeight: 500 }}></span>

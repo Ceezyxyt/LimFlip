@@ -148,7 +148,7 @@ export default function CoinflipToolbar({ onBetItemsClick, onPlaceBetClick }: Co
               padding: '0 15px',
             }}
           >
-            <span style={{ fontFamily: 'Poppins', fontWeight: 500, fontSize: '18px', color: '#A855F7', marginRight: '10px' }}>$</span>
+            <span style={{ fontFamily: 'Poppins', fontWeight: 500, fontSize: '18px', color: '#F04451', marginRight: '10px' }}>$</span>
             <input
               type="number"
               value={balanceAmount}

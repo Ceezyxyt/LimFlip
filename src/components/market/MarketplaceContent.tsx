@@ -1723,7 +1723,7 @@ export default function MarketplaceContent({ onMyListingsClick }: MarketplaceCon
                   fontWeight: '600',
                   fontSize: '16px',
                   lineHeight: '24px',
-                  color: cartTotal > userBalance ? '#EF4444' : '#A855F7',
+                  color: cartTotal > userBalance ? '#EF4444' : '#F04451',
                 }}
               >
                 ${userBalance.toFixed(2)}

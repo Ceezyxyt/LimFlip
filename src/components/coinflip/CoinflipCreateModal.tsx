@@ -284,7 +284,7 @@ const CoinflipCreateModal: React.FC<CoinflipCreateModalProps> = ({ isOpen, onClo
               flexGrow: 0,
             }}
           >
-            Selected: <span style={{ color: '#A855F7' }}>{formatAmount(animatedAmount)}</span>
+            Selected: <span style={{ color: '#F04451' }}>{formatAmount(animatedAmount)}</span>
           </span>
           <span
             style={{
@@ -302,7 +302,7 @@ const CoinflipCreateModal: React.FC<CoinflipCreateModalProps> = ({ isOpen, onClo
               whiteSpace: 'nowrap',
             }}
           >
-            Inventory Value: <span style={{ color: '#A855F7' }}>{formatAmount(inventory?.totalValue || 0)}</span>
+            Inventory Value: <span style={{ color: '#F04451' }}>{formatAmount(inventory?.totalValue || 0)}</span>
           </span>
           <span
             style={{
@@ -312,7 +312,7 @@ const CoinflipCreateModal: React.FC<CoinflipCreateModalProps> = ({ isOpen, onClo
               fontWeight: 600,
               fontSize: isMobile ? '14px' : '18px',
               lineHeight: '27px',
-              color: '#A855F7',
+              color: '#F04451',
               flex: 'none',
               order: 2,
               flexGrow: 0,
@@ -561,7 +561,7 @@ const CoinflipCreateModal: React.FC<CoinflipCreateModalProps> = ({ isOpen, onClo
             height: '44px',
             left: isMobile ? '16px' : '875px',
             top: isMobile ? 'calc(100% - 100px)' : '638px',
-            background: '#A855F7',
+            background: '#F04451',
             borderRadius: '15px',
             display: 'flex',
             alignItems: 'center',
@@ -737,7 +737,7 @@ const CoinflipCreateModal: React.FC<CoinflipCreateModalProps> = ({ isOpen, onClo
                       height: isMobile ? 'auto' : '185px',
                       left: '0px',
                       top: '0px',
-                      border: '1px solid #A855F7',
+                      border: '1px solid #F04451',
                       borderRadius: '7.91501px',
                       zIndex: 10,
                       transition: 'opacity 0.2s ease',

@@ -140,7 +140,7 @@ export default function MobileBottomNav() {
               left: '0px',
               top: menuIndicatorStyle.top || '50%',
               transform: 'translateY(-50%) rotate(90deg)',
-              background: '#A855F7',
+              background: '#F04451',
               boxShadow: '0px 0px 4px rgba(168, 85, 247, 0.25)',
               borderRadius: '40px 8px 0px 0px',
               transition: 'top 0.3s ease',

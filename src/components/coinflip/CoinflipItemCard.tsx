@@ -86,7 +86,7 @@ export default function CoinflipItemCard({ imageSrc, itemName = 'Gingerscope', i
 
         
         <img
-          src="/assets/svg/ui/bloxsurge-logo.png"
+          src="/assets/svg/ui/bloxsurge-dice-logo.png"
           alt="Logo"
           style={{
             position: 'absolute',
@@ -134,7 +134,7 @@ export default function CoinflipItemCard({ imageSrc, itemName = 'Gingerscope', i
           fontWeight: '600',
           fontSize: '13px',
           lineHeight: '20px',
-          color: '#A855F7',
+          color: '#F04451',
         }}
       >
         {formatValue(itemValue)}

@@ -254,11 +254,11 @@ export default function Sidebar({ onProfileClick, onGiftClick, onRulesClick }: S
             }}
           >
             <img
-              src="/assets/svg/ui/bloxsurge-logo.png"
+              src="/assets/svg/ui/bloxsurge-dice-logo.png"
               alt="Bloxsurge logo"
               style={{
-                width: '100%',
-                height: '100%',
+                width: '42px',
+                height: '42px',
                 objectFit: 'contain',
               }}
             />
@@ -477,6 +477,26 @@ export default function Sidebar({ onProfileClick, onGiftClick, onRulesClick }: S
       </div>
 
 
+      <div
+        aria-label="Bloxsurge chat banner"
+        style={{
+          position: 'absolute',
+          width: '100%',
+          left: 0,
+          top: isMobile ? '88px' : 'var(--content-top)',
+          height: isMobile ? '92px' : '112px',
+          overflow: 'hidden',
+          borderBottom: '1px solid #F04451',
+          zIndex: 2,
+        }}
+      >
+        <img
+          src="/assets/images/auth/bloxsurge-dice-banner.png"
+          alt="Bloxsurge dice banner"
+          style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
+        />
+      </div>
+
       {giveaway && (
         <GiveawayCard
           giveaway={giveaway}
@@ -492,8 +512,8 @@ export default function Sidebar({ onProfileClick, onGiftClick, onRulesClick }: S
           width: '100%',
           left: '0px',
           top: isMobile
-            ? `calc(88px + 34px + ${giveaway ? '140px' : '0px'} + 16px)`
-            : `calc(var(--content-top) + 34px + 20px + ${giveaway ? '152px' : '0px'} + 16px)`,
+            ? `calc(88px + 92px + 34px + ${giveaway ? '140px' : '0px'} + 16px)`
+            : `calc(var(--content-top) + 112px + 34px + 20px + ${giveaway ? '152px' : '0px'} + 16px)`,
           bottom: isMobile ? '127px' : '68px',
           background: '#191D29',
           overflowY: 'auto',

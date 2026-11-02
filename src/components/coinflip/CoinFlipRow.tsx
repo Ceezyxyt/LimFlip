@@ -213,7 +213,7 @@ export default function CoinFlipRow({ game, topOffset, winner, onJoinClick, onVi
                     left: '-2px',
                     top: '-4px',
                     borderRadius: '132px',
-                    border: '2px solid #A855F7',
+                    border: '2px solid #F04451',
                     pointerEvents: 'none',
                     zIndex: 5,
                   }}
@@ -389,7 +389,7 @@ export default function CoinFlipRow({ game, topOffset, winner, onJoinClick, onVi
                     left: '-2px',
                     top: '-4px',
                     borderRadius: '132px',
-                    border: '2px solid #A855F7',
+                    border: '2px solid #F04451',
                     pointerEvents: 'none',
                     zIndex: 5,
                   }}

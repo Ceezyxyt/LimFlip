@@ -698,7 +698,7 @@ export default function CoinflipViewModal({ isOpen, onClose, game }: CoinflipVie
                           fontWeight: 600,
                           fontSize: '13px',
                           lineHeight: '13px',
-                          color: '#A855F7',
+                          color: '#F04451',
                           whiteSpace: 'nowrap',
                         }}
                       >
@@ -761,7 +761,7 @@ export default function CoinflipViewModal({ isOpen, onClose, game }: CoinflipVie
                           fontWeight: 600,
                           fontSize: '13px',
                           lineHeight: '13px',
-                          color: '#A855F7',
+                          color: '#F04451',
                           whiteSpace: 'nowrap',
                         }}
                       >
@@ -1165,7 +1165,7 @@ color: '#FFFFFF',
             }}
           >
             <img
-              src="/assets/svg/ui/bloxsurge-logo.png"
+              src="/assets/svg/ui/bloxsurge-dice-logo.png"
               alt="Bloxsurge logo"
               style={{
                 position: 'absolute',
@@ -1201,7 +1201,7 @@ color: '#FFFFFF',
             }}
           >
             <img
-              src="/assets/svg/ui/bloxsurge-logo.png"
+              src="/assets/svg/ui/bloxsurge-dice-logo.png"
               alt="Bloxsurge logo"
               style={{
                 position: 'absolute',

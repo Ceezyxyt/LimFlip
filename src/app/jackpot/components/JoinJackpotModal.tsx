@@ -182,7 +182,7 @@ const JoinJackpotModal: React.FC<JoinJackpotModalProps> = ({ isOpen, onClose, on
               flexGrow: 0,
             }}
           >
-            Selected: <span style={{ color: '#A855F7' }}>{formatAmount(animatedAmount)}</span>
+            Selected: <span style={{ color: '#F04451' }}>{formatAmount(animatedAmount)}</span>
           </span>
           <span
             style={{
@@ -199,7 +199,7 @@ const JoinJackpotModal: React.FC<JoinJackpotModalProps> = ({ isOpen, onClose, on
               flexGrow: 0,
             }}
           >
-            Inventory Value: <span style={{ color: '#A855F7' }}>{formatAmount(inventory?.totalValue || 0)}</span>
+            Inventory Value: <span style={{ color: '#F04451' }}>{formatAmount(inventory?.totalValue || 0)}</span>
           </span>
         </div>
 
@@ -433,7 +433,7 @@ const JoinJackpotModal: React.FC<JoinJackpotModalProps> = ({ isOpen, onClose, on
             height: '44px',
             left: isMobile ? '16px' : '875px',
             top: isMobile ? 'calc(100% - 60px)' : '638px',
-            background: '#A855F7',
+            background: '#F04451',
             borderRadius: '15px',
             display: 'flex',
             alignItems: 'center',
@@ -573,7 +573,7 @@ const JoinJackpotModal: React.FC<JoinJackpotModalProps> = ({ isOpen, onClose, on
                     height: isMobile ? 'auto' : '203.81px',
                     left: '0px',
                     top: '0px',
-                    border: '1px solid #A855F7',
+                    border: '1px solid #F04451',
                     borderRadius: '7.91501px',
                     zIndex: 10,
                   }}

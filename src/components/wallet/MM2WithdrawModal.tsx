@@ -276,7 +276,7 @@ const MM2WithdrawModal: React.FC<MM2WithdrawModalProps> = ({ isOpen, onClose }) 
               flexGrow: 0,
             }}
           >
-            Selected: <span style={{ color: '#A855F7' }}>{formatAmount(animatedAmount)}</span>
+            Selected: <span style={{ color: '#F04451' }}>{formatAmount(animatedAmount)}</span>
           </span>
           <span
             style={{
@@ -294,7 +294,7 @@ const MM2WithdrawModal: React.FC<MM2WithdrawModalProps> = ({ isOpen, onClose }) 
               whiteSpace: 'nowrap',
             }}
           >
-            Inventory Value: <span style={{ color: '#A855F7' }}>{formatAmount(inventory?.totalValue || 0)}</span>
+            Inventory Value: <span style={{ color: '#F04451' }}>{formatAmount(inventory?.totalValue || 0)}</span>
           </span>
           <span
             style={{
@@ -304,7 +304,7 @@ const MM2WithdrawModal: React.FC<MM2WithdrawModalProps> = ({ isOpen, onClose }) 
               fontWeight: 600,
               fontSize: isMobile ? '14px' : '18px',
               lineHeight: '27px',
-              color: '#A855F7',
+              color: '#F04451',
               flex: 'none',
               order: 2,
               flexGrow: 0,
@@ -528,7 +528,7 @@ const MM2WithdrawModal: React.FC<MM2WithdrawModalProps> = ({ isOpen, onClose }) 
                       height: '203.81px',
                       left: '0px',
                       top: '0px',
-                      border: '1px solid #A855F7',
+                      border: '1px solid #F04451',
                       borderRadius: '7.91501px',
                       zIndex: 10,
                     }}

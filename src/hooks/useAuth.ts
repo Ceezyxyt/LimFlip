@@ -22,8 +22,8 @@ export const useAuth = () => {
     const token = localStorage.getItem('token');
     
     if (!token) {
-      console.log('useAuth: No token found');
       setUser(null);
+      setLoading(false);
       return;
     }
 
@@ -35,12 +35,16 @@ export const useAuth = () => {
     let responseStatus: number | null = null;
 
     try {
+      const controller = new AbortController();
+      const timeout = window.setTimeout(() => controller.abort(), 8000);
       const response = await fetch(`${API_URL}/auth/me`, {
+        signal: controller.signal,
         headers: {
           'Authorization': `Bearer ${token}`,
         },
       });
 
+      window.clearTimeout(timeout);
       responseStatus = response.status;
       const data = await response.json();
 

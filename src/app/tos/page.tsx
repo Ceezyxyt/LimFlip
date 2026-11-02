@@ -33,7 +33,7 @@ export default function TOSPage() {
           height: '704px',
           left: '241px',
           bottom: '702px',
-          background: '#A855F7',
+          background: '#F04451',
           opacity: '0.08',
           filter: 'blur(114px)',
           borderRadius: '344.22px',
