@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { API_URL } from '@/lib/api';
+import { API_URL, fetchApi } from '@/lib/api';
 
 interface User {
   id: string;
@@ -35,16 +35,12 @@ export const useAuth = () => {
     let responseStatus: number | null = null;
 
     try {
-      const controller = new AbortController();
-      const timeout = window.setTimeout(() => controller.abort(), 8000);
-      const response = await fetch(`${API_URL}/auth/me`, {
-        signal: controller.signal,
+      const response = await fetchApi(`${API_URL}/auth/me`, {
         headers: {
           'Authorization': `Bearer ${token}`,
         },
       });
 
-      window.clearTimeout(timeout);
       responseStatus = response.status;
       const data = await response.json();
 

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useIsMobile } from '@/hooks/useMediaQuery';
-import { API_URL } from '@/lib/api';
+import { API_URL, fetchApi } from '@/lib/api';
 
 interface SignUpModalProps {
   isOpen?: boolean;
@@ -46,7 +46,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
         const endpoint = `${API_URL}/auth/check-username`;
         const body = { username };
 
-        const response = await fetch(endpoint, {
+        const response = await fetchApi(endpoint, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -70,7 +70,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
           
           // Fetch avatar URL from Roblox API
           try {
-            const searchResponse = await fetch(`${API_URL}/roblox/search?q=${encodeURIComponent(username)}`);
+            const searchResponse = await fetchApi(`${API_URL}/roblox/search?q=${encodeURIComponent(username)}`);
             const searchData = await searchResponse.json();
             console.log('Search results:', searchData);
             if (searchData && searchData.length > 0) {
@@ -103,7 +103,7 @@ export default function SignUpModal({ isOpen = false, onClose }: SignUpModalProp
 
         console.log('Sending to verify-description:', { username, robloxUserId });
 
-        const response = await fetch(endpoint, {
+        const response = await fetchApi(endpoint, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
